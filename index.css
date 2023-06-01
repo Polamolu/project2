@@ -1,0 +1,320 @@
+body {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.121);
+}
+.header {
+  margin-bottom: 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login {
+  display: flex;
+}
+#user_name,
+#pin {
+  display: inline-block;
+  padding: 6px;
+  width: 75px;
+  border-radius: 50px;
+  border: 1px thin black;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+.login__btn {
+  border-radius: 50px;
+  border: 0px;
+  padding: 5px;
+  width: 35px;
+  background-color: white;
+}
+.welcome {
+  font-size: 24px;
+  font-weight: 400;
+}
+main {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto, auto;
+  padding: 6px;
+}
+.p2 {
+  justify-self: end;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.p3 {
+  align-self: start;
+  margin-bottom: 0px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.p1 {
+  display: flex;
+  font-size: 28px;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-self: start;
+  align-self: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 475px;
+  column-gap: 24px;
+  margin-top: 30px;
+}
+.container_movements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 18px;
+  background-color: white;
+  border-radius: 7px;
+  overflow-y: scroll;
+  padding-top: 20px;
+  gap: 24px;
+}
+.deposit {
+  display: flex;
+  align-content: center;
+  padding: 6px;
+  justify-content: space-between;
+  margin-bottom: 1px solid black;
+}
+.withdraw {
+  display: flex;
+  align-content: center;
+  padding: 6px;
+  justify-content: space-between;
+  border-bottom: 1px thick rgba(0, 0, 0, 0.091);
+}
+.amount {
+  font-weight: bold;
+  align-self: center;
+}
+.type {
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px;
+}
+.date {
+  font-size: 13px;
+  font-weight: 400;
+  align-self: center;
+}
+.deposit .type {
+  background-color: rgba(0, 128, 0, 0.706);
+}
+.withdraw .type {
+  background-color: rgba(255, 0, 0, 0.697);
+}
+.container_other {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.transfer {
+  background-color: rgba(255, 166, 0, 0.768);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 12px;
+  justify-content: center;
+  align-content: center;
+}
+.transfer form {
+  align-self: center;
+}
+.transfer h4 {
+  align-self: center;
+}
+.transfer input {
+  display: inline-block;
+  padding: 6px;
+  max-width: 100px;
+  border-radius: 50px;
+  border: 0px;
+}
+.loan input {
+  display: inline-block;
+  display: inline-block;
+  padding: 6px;
+  max-width: 100px;
+  border-radius: 50px;
+  border: 0px;
+  align-self: center;
+}
+.loan h4 {
+  align-self: center;
+}
+.closing h4 {
+  align-self: center;
+}
+.closing {
+  background-color: rgba(255, 60, 0, 0.873);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 32px;
+  gap: 12px;
+}
+.main4 {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.main4 input {
+  display: inline-block;
+  display: inline-block;
+  padding: 6px;
+  max-width: 100px;
+  border-radius: 50px;
+  border: 0px;
+  align-self: center;
+}
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.transfer__btn {
+  border-radius: 50px;
+  border: 0px;
+  padding: 5px;
+  width: 35px;
+  height: 27px;
+  background-color: white;
+}
+.loan__btn {
+  border-radius: 50px;
+  border: 0px;
+  padding: 5px;
+  width: 35px;
+  height: 27px;
+  background-color: white;
+}
+.close__btn {
+  border-radius: 50px;
+  border: 0px;
+  padding: 5px;
+  width: 35px;
+  height: 27px;
+  background-color: white;
+}
+.hi,
+.sai,
+.saran {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.bye {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.main3 {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+label {
+  justify-self: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  align-self: center;
+}
+.loan {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 128, 0, 0.621);
+  border-radius: 5px;
+  padding: 32px;
+  gap: 12px;
+}
+.leo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto auto 1.5fr 1fr 2fr;
+  grid-template-rows: auto;
+  column-gap: 12px;
+  padding-top: 12px;
+}
+.foot4 {
+  position: relative;
+}
+.foot4 button {
+  align-self: center;
+  border: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%, -50%);
+}
+.foot5 {
+  justify-self: end;
+}
+.r {
+  font-size: 12px;
+  font-weight: 300;
+}
+span {
+  font-size: 28px;
+  font-weight: 500;
+}
+#span1 {
+  color: green;
+}
+#span2 {
+  color: red;
+}
+#span3 {
+  color: green;
+}
+.foot1 {
+  display: flex;
+  justify-content: space-between;
+}
+.foot4 button:hover {
+  box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 0.091);
+}
+span {
+  padding-left: 7px;
+}
+main {
+  opacity: 0;
+}

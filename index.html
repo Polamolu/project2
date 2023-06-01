@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h3 class="welcome">Login to get started</h3>
+        <form class="login">
+          <input type="text" id="user_name" placeholder="user" required />
+          <input
+            type="text"
+            id="pin"
+            placeholder="pin"
+            maxlength="4"
+            required
+          />
+          <button class="login__btn">&rarr;</button>
+        </form>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main-1">
+        <p class="p1">Current balance</p>
+        <p class="p2">25952.13$</p>
+        <p class="p3">As of 25/12/2022</p>
+      </div>
+      <div class="container">
+        <div class="container_movements">
+          <div class="deposit">
+            <div class="type">1 deposit</div>
+            <div class="date">01/12/2022</div>
+            <div class="amount">3500$</div>
+          </div>
+          <div class="withdraw">
+            <div class="type">2 withdraw</div>
+            <div class="date">01/06/2022</div>
+            <div class="amount">300$</div>
+          </div>
+        </div>
+        <div class="container_other">
+          <div class="transfer">
+            <h4>Transfer money</h4>
+            <form class="main2">
+              <div class="hi">
+                <input id="transfer_to" type="text" required />
+                <label for="transfer_to">Transfer to</label>
+              </div>
+              <div class="bye">
+                <input id="transfer_amount" type="text" required />
+                <label for="transfer_amount">Amount</label>
+              </div>
+              <button class="transfer__btn">&rarr;</button>
+            </form>
+          </div>
+          <div class="loan">
+            <h4>Request loan</h4>
+            <form class="main3">
+              <div class="leo">
+                <input id="loan_amount" type="text" required />
+                <label for="loan_amount">Amount</label>
+              </div>
+              <button class="loan__btn">&rarr;</button>
+            </form>
+          </div>
+          <div class="closing">
+            <h4>Close Account</h4>
+            <form class="main4">
+              <div class="sai">
+                <input id="confirm_user" type="text" required />
+                <label for="confirm_user">Confirm user</label>
+              </div>
+              <div class="saran">
+                <input id="confirm_pin" type="text" required />
+                <label for="confirm_pin">Confirm pin</label>
+              </div>
+
+              <button class="close__btn">&rarr;</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="foot1">
+          <p class="r label_in">IN <span id="span1">0000.00$</span></p>
+        </div>
+        <div class="foot2">
+          <p class="r label_out">OUT <span id="span2">-0000.00$</span></p>
+        </div>
+        <div class="foot3">
+          <p class="r label_interest">
+            INTEREST<span id="span3">0000.00$</span>
+          </p>
+        </div>
+        <div class="foot4">
+          <button class="sort">↓ SORT</button>
+        </div>
+        <div class="foot5">
+          <p class="nio">you will be logged out in 5:00</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
